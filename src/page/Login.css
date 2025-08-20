@@ -1,0 +1,40 @@
+/* Toàn bộ trang */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  transition: background-color 0.7s ease;
+}
+
+/* Khối login */
+.login-container {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  transition: background-color 0.7s;
+}
+
+/* Khối login trong dark mode */
+.dark-mode .login-container {
+  background-color: #333;
+  color: white;
+}
+
+/* Input */
+.login-container input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.login-container input::placeholder {
+  color: #aaa;
+}

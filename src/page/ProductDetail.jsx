@@ -22,7 +22,7 @@ export default function ProductDetail() {
 
   return (
     <Container maxWidth="md" sx={{ mt: 5 }}>
-      <Button variant="outlined" onClick={() => navigate("/")}>
+      <Button variant="outlined" onClick={() => navigate("/productlist")}>
         ← Back to list
       </Button>
 
